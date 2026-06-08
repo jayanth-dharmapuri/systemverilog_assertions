@@ -1,6 +1,6 @@
 module tb; 
-  logic clk, rst_n,
-  logic [3:0] count,
+  logic clk, rst_n;
+  logic [3:0] count;
   logic [7:0] data;
 
   initial clk = 0;
